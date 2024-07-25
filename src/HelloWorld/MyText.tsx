@@ -1,4 +1,3 @@
-// src/HelloWorld/MyText.tsx
 import React from "react";
 import { AbsoluteFill, useCurrentFrame, interpolate } from "remotion";
 
