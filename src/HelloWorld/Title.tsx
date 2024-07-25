@@ -1,4 +1,3 @@
-// src/HelloWorld/Title.tsx
 import React from 'react';
 import { spring, useCurrentFrame, useVideoConfig } from 'remotion';
 
@@ -8,10 +7,10 @@ const title: React.CSSProperties = {
   fontSize: 100,
   textAlign: 'center',
   position: 'absolute',
-  bottom: 200, // 调整文本位置
+  bottom: 200,
   width: '100%',
   color: '#FFFFFF', 
-  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', // 添加阴影以提高可读性
+  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
 };
 
 const word: React.CSSProperties = {
